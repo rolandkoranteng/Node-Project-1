@@ -1,0 +1,221 @@
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/*
+header{
+  text-align: center;
+  color: rgb(138, 138, 232);
+}
+*/
+
+header {
+  text-align: center;
+  background: #f8f9fb;              /* Light background for subtle contrast */
+  color: #4a5fd0;                   /* Softer, professional shade of blue */
+  padding: 30px 30px;               /* Adds breathing space around text */
+  border-bottom: 2px solid #35353b; /* Gives a clean separation from rest of page */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+ /* box-shadow: 0 2px 10px rgba(0,0,0,0.05);  Soft shadow for a polished feel */
+}
+
+/*
+#node {
+   background: rgb(237, 235, 235);
+   align-items: center;
+   justify-content: center;
+   padding: 40px 40px;
+   font-weight: 500;
+   line-height: 1.8;
+   border-radius: 10px;
+}
+
+#node h2{
+  text-align: center;
+
+}
+
+#node p{
+  margin: 20px;
+  text-align: center;
+}*/
+
+#node {
+  background: #f5f5f5;              /* Softer grey for a cleaner look */
+  display: flex;                    /* Use flex to center content vertically */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;               /* More vertical padding, balanced horizontal */
+  font-weight: 400;                 /* Slightly lighter weight for readability */
+  line-height: 1.7;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);  /* Adds soft shadow depth */
+  max-width: 1100px;                 /* Prevents text from stretching too wide */
+  margin: 40px auto;                /* Centers section horizontally */
+}
+
+#node h2 {
+  text-align: center;
+  font-size: 2em;
+  color:   #4a5fd0;      ;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+#node p {
+  text-align: center;
+  color: #555;
+  font-size: 1.05em;
+  margin: 10px 0;
+  max-width: 800px;                 /* Keeps paragraphs narrower for readability */
+}
+
+
+/* Importance of node.js*/
+
+.importance {
+  background: #f5f5f5;
+  margin: 40px auto;
+  padding: 40px 20px;
+}
+
+.importance h2 {
+  text-align: center;
+  color: #4a5fd0;
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+.grid-container {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.grid-item h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.grid-item p {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.grid-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* For icons inside each item */
+.grid-item i {
+  font-size: 2em;
+  color: #4a5fd0;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.final-section {
+  background: #f5f5f5;
+  padding: 50px 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+  border-radius: 12px;
+}
+
+.final-section h2 {
+  text-align: center;
+  color: #4a5fd0;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+/* Grid for applications */
+.applications {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-bottom: 40px;
+}
+
+.app-item {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.app-item i {
+  font-size: 2em;
+  color: #4a5fd0;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.app-item h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.app-item p {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* CTA Styling */
+.cta {
+  text-align: center;
+  background: #e8e8ea;
+  padding: 30px 20px;
+  border-radius: 12px;
+}
+
+.cta h3 {
+  font-size: 1.5em;
+  color: #4a5fd0;
+  margin-bottom: 15px;
+}
+
+.cta p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+}
+
+.cta a {
+  color: #4a5fd0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cta a:hover {
+  text-decoration: underline;
+}
